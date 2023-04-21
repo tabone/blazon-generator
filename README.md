@@ -1,4 +1,4 @@
-# Deity Generator
+# Blazon Generator
 
 Generates a random Blazon.
 
