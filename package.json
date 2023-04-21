@@ -1,0 +1,32 @@
+{
+  "name": "blazon-generator",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/main.js",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tabone/blazon-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tabone/blazon-generator/issues"
+  },
+  "author": "Luca Tabone <taboneluca3@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "random-seed": "^0.3.0",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
